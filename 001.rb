@@ -77,3 +77,25 @@ puts angka.to_f
 ## exercise 2.6
 teksto = "Ruby"
 puts teksto.ljust(10,"<3")
+
+# True False and Nil
+# nil represent "nothing"
+
+# Simbol
+# ditulis seperti " :simbol "
+# contoh untuk menunjukkan beda var & simbol
+print "halo".object_id
+puts
+print "halo".object_id
+puts
+print "halo".object_id
+puts
+# sama sama string "halo" namun id nya berbeda
+# mari cek simbol
+
+print :halo.object_id
+puts
+print :halo.object_id
+puts
+print :halo.object_id
+# lihat id nya sama, berapapun pemanggilannya
