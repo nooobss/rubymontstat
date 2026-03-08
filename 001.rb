@@ -42,3 +42,38 @@ puts 4.1 % 2
 puts 8374.even?
 
 ## exercise 1.4
+
+# Strings
+contoh_string = "jokoui dan tembok ratapan"
+puts contoh_string
+
+## concatenation
+puts "jowo" + "kidodo"
+puts "hi".*(3)
+# atau ditulis
+puts "hi" * 3
+
+my_fav = "gorengan sawit"
+puts my_fav.upcase
+puts my_fav.capitalize
+puts my_fav.length
+puts my_fav.reverse
+
+## Exercise 2.1
+puts "hello".length + "world".length
+
+## Exercise 2.3
+teks2 = "Learning"
+teks1 = "Ruby "
+puts new_teks = teks1.prepend(teks2)
+
+## Exercise 2.4
+puts new_teks.delete("eaiu")
+
+## Exercise 2.5
+angka = "1.23"
+puts angka.to_f
+
+## exercise 2.6
+teksto = "Ruby"
+puts teksto.ljust(10,"<3")
