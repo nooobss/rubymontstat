@@ -132,12 +132,13 @@ p ini_array[99] # nil, array hanya sampai index-5
 
 # Melakukan beberapa hal di Array
 box_1 = [2,3,3]
-box_2 = [66,7,99]
+box_2 = [2,7,99]
 
 # Gabung element Array
 total_box12 = box_1 + box_2
 p total_box12
 
-# Pengurangan element Array
-kurang_box12 = box_1 - box_2
-p kurang_box12
+# Pengurangan element yang sama di Array
+# sialan bukan pengurangan seperti operasi matematika
+kurang_box12 = box_2 - box_1
+p kurang_box12 # yang ilang adalah elemen yang muncul di box_1 & box_2 -> angka 2
