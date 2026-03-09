@@ -146,3 +146,7 @@ p kurang_box12 # yang ilang adalah elemen yang muncul di box_1 & box_2 -> angka 
 # Multiplikasi pun bukan mengalikan elemen, tetapi mengulang element
 box_1x2 = box_1 *2
 p box_1x2 # bukan operasi perkalian matematika
+
+# intersection Array (irisan), bedakan dengan - "substraction"
+intersec_box12 = box_1 & box_2
+p intersec_box12 # hanya muncul elemen yang muncul di kedua array
