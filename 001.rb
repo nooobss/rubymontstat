@@ -142,3 +142,7 @@ p total_box12
 # sialan bukan pengurangan seperti operasi matematika
 kurang_box12 = box_2 - box_1
 p kurang_box12 # yang ilang adalah elemen yang muncul di box_1 & box_2 -> angka 2
+
+# Multiplikasi pun bukan mengalikan elemen, tetapi mengulang element
+box_1x2 = box_1 *2
+p box_1x2 # bukan operasi perkalian matematika
