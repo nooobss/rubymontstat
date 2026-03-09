@@ -150,3 +150,30 @@ p box_1x2 # bukan operasi perkalian matematika
 # intersection Array (irisan), bedakan dengan - "substraction"
 intersec_box12 = box_1 & box_2
 p intersec_box12 # hanya muncul elemen yang muncul di kedua array
+
+# method first dan last seperti array-0 dan array -1
+p box_1.first
+p box_1.last
+
+# sorten array ascending
+unsorted_arr = [17,5,41]
+p unsorted_arr.sort
+
+# bersih-bersih nilai nil
+p clean_arr = nested_arr.flatten.compact # flatten untuk meratakan array, compact untuk menghapus nilai nil
+
+# cari index ke berapa elemen tertentu
+p index_jowo = nested_arr.flatten.index("jowo")
+
+# rotasi array
+jadwal_piket = ["jokowi", "prabowo", "ganjar", "anies"]
+p jadwal_piket.rotate(1) # rotasi 1x, jokowi pindah ke paling belakang
+p jadwal_piket.rotate(-1) # rotasi kebalikan 1x, anies pindah ke paling depan
+
+# transpose array, untuk ubah baris jd kolom dan sebaliknya (untuk array 2D)
+arr_awal = [
+    [1,2,3],
+    [98,99,100],
+]
+
+p arr_awal.transpose
