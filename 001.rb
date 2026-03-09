@@ -116,3 +116,28 @@ ini_array[5] = "extra" # cara ini juga bisa meng-overwrite elemen yang sudah ada
 p ini_array
 ini_array[0] = "2 periode"
 p ini_array
+
+# Nested Arrays
+nested_arr = [
+    [1,1,1],
+    ['jowo','iki','epstein'],
+    [true,true,nil],
+]
+p nested_arr[0][0..2]
+p nested_arr[1][1..2]
+
+# Missing Values
+p ini_array[99] # nil, array hanya sampai index-5
+# ruby selalu me-return 1 hal, bahkan jikapun itu nil
+
+# Melakukan beberapa hal di Array
+box_1 = [2,3,3]
+box_2 = [66,7,99]
+
+# Gabung element Array
+total_box12 = box_1 + box_2
+p total_box12
+
+# Pengurangan element Array
+kurang_box12 = box_1 - box_2
+p kurang_box12
