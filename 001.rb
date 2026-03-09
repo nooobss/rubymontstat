@@ -98,4 +98,21 @@ puts
 print :halo.object_id
 puts
 print :halo.object_id
-# lihat id nya sama, berapapun pemanggilannya
+puts
+# lihat id nya sama, berapa kali pun pemanggilannya
+
+
+# Array
+ini_array = [3,"jokowi", "epstein", true, :mbg]
+p ini_array
+p ini_array[0]
+
+# shovel operator
+ini_array << "tambahan" #menambahkan elemen ke baris terakhir array
+p ini_array
+
+# cara lain menambahkan elemen ke array
+ini_array[5] = "extra" # cara ini juga bisa meng-overwrite elemen yang sudah ada,
+p ini_array
+ini_array[0] = "2 periode"
+p ini_array
