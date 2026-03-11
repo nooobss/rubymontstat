@@ -177,3 +177,11 @@ arr_awal = [
 ]
 
 p arr_awal.transpose
+
+## exercise 3.1
+numbers = [1,2,3,4,5,6,7,8,9,10,]
+p numbers[4]
+
+## exercise 3.2
+p numbers << 99
+p numbers[-1]
