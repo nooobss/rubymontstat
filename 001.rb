@@ -198,3 +198,13 @@ p reverse_filtergenap
 # exercise 3.5
 p reverse_filtergenap.delete(6)
 p reverse_filtergenap
+
+
+
+
+# Hashes
+
+# membuat hash menggunakan rocket operator
+pleciden_62 = {"nama" => "joko", "pangkat" => "pleciden", "hewan" => "kodoxxx"}
+p pleciden_62
+p pleciden_62["nama"]
