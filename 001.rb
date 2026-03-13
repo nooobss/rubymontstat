@@ -185,3 +185,16 @@ p numbers[4]
 ## exercise 3.2
 p numbers << 99
 p numbers[-1]
+
+# exercise 3.3
+nomor_toggle = [1,2,3,4,5,6,7,8,9,10]
+filter_genap = nomor_toggle.select {|genap| genap.even?}
+p filter_genap
+
+# exercise 3.4
+reverse_filtergenap = filter_genap.reverse
+p reverse_filtergenap
+
+# exercise 3.5
+p reverse_filtergenap.delete(6)
+p reverse_filtergenap
